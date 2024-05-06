@@ -29,7 +29,7 @@
     <!-- SVG chart with labels, bars, axis, and title -->
     <div class="display-flex">
         {#if selectedVendorData}
-            <svg width="650" height="475" viewBox="0 -15 350 170">
+            <svg width="650" height="480" viewBox="0 -15 350 170">
                 <!-- Labels -->
                 <text x="10" y="30" class="axis-label">Good Receipt</text>
                 <text x="10" y="70" class="axis-label">Inbound Transport</text>
