@@ -152,5 +152,5 @@
     }
 </script>
   
-<canvas id="customerChartCanvas" style="height:225px; width:200px; bottom: 0;"></canvas>
+<canvas id="customerChartCanvas" style="height:220px; width:280px; bottom: 0;"></canvas>
   

@@ -112,27 +112,31 @@
         gap: 0px;
         flex-grow: 1;
         font-size: 34px;
+        padding: 5px; 
     }
 
     .chart-container {
       flex-grow: 1;
-      max-width: calc(33% - 10px);
+      flex-shrink: 1;
+      flex-basis: calc(33% - 10px);  
+      max-width: calc(33% - 10px); 
       position: relative;
+      padding: 5px; 
     }
 
     .country-list {
         background-color: #f0f0f0;
         padding: 1px;
         border-radius: 2px;
-        width: 200px; 
-        font-size: 15px; 
+        width: 150px; 
+        font-size: 14px; 
         font-family: 'Arial', sans-serif; 
         color: black;
         margin-left: 1px; 
     }
 
     .country-list strong {
-        font-size: 20px; 
+        font-size: 16px; 
         display: block;
         padding-bottom: 5px;
         color: #333; 
@@ -164,7 +168,7 @@
       text-align: center;
       padding: 10px;
       width: 100%;
-      font-size: 34px;
+      font-size: 28px;
       font-family: 'Arial', sans-serif; 
     }
 
@@ -182,7 +186,7 @@
 
     .sales-title {
       background-color: #c94c4c;
-      width: 120%;
+      width: 100%;
     }
 
     .overall-title {
@@ -193,7 +197,7 @@
       padding: 25px;
     }
     .title-content {
-      font-size: 45px;
+      font-size: 35px;
       font-weight: bold;
       font-family: 'Arial', sans-serif; 
     }

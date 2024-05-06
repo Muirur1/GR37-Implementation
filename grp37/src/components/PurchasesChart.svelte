@@ -163,5 +163,5 @@
 
 
   
-<canvas id="myChart" style="height:225px; width:365px;"></canvas>
+<canvas id="myChart" style="height:220px; width:280px;"></canvas>
   
